@@ -1,17 +1,28 @@
 {
-	"geode": "$GEODE_VERSION",
-	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
-	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
-	"version": "$MOD_VERSION",
-	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
-	}
+    "geode": "5.10.1",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "ios": "2.2081",
+        "mac": "2.2081"
+    },
+    "id": "flim.icon-rotation.geode",
+    "name": "Icon Rotation",
+    "version": "v1.0.0",
+    "developer": "flim",
+    "description": "Visual icon rotation with adjustable speed.",
+    "logo": "logo.png",
+    "settings": {
+        "rotation-speed": {
+            "name": "Rotation Speed",
+            "description": "Adjusts the visual rotation speed of the icon.",
+            "type": "float",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 5.0,
+            "control": {
+                "type": "slider"
+            }
+        }
+    }
 }
